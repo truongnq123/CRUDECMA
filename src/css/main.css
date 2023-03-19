@@ -1,0 +1,36 @@
+/*Mã built Tailwind: npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    margin: auto;
+    width: 80%;
+}
+
+.wrap {
+    padding-left: 250px;
+}
+
+.all_header {
+    margin: auto;
+    width: 80%;
+}
+
+.category ul li {
+    margin-left: -8px;
+    padding: 8px;
+}
+
+.statusBook ul li {
+    padding-right: 12px;
+}
+
+.icon img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
